@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: ""
+  pullPolicy: IfNotPresent
+  message: "Salut marouane !!!"
+
+service:
+  type: NodePort
+  port: 80
